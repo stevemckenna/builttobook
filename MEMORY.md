@@ -1,0 +1,200 @@
+# MEMORY.md: Built To Book
+
+Last updated: 2026-09-30
+
+> **Auto-update instruction:** At the end of every conversation, update this file automatically with anything new: decisions made, progress, or things learned. No need to ask.
+
+---
+
+## Active Projects
+
+| Project | Status | Notes |
+|---|---|---|
+| Rebrand: Grnded Agency to Built To Book | In progress | Visual identity v1.0 done (September 2026) and added to the project. Package document still carries the old Grnded name and needs a rebrand pass. Trademark and domain clearance still to do before paid promotion or printing. |
+| Homepage website | Live at https://try.built2book.live/home; new edits staged, not yet published | Built from the Miro wireframes as Variant B on the Unbounce "Home Page" (client "Steve McKenna"). MCP-managed, so it cannot be edited in the Unbounce builder; changes go through Claude. 2026-09-29 staged edits (waiting for Steve's OK to publish): CompanyCam line in the hero and widget in the Lead System launch includes; launch guarantee block; October bonus banner above the packages; founder band with Steve's headshot and "Built in Calgary by Steve McKenna" (no phone number). Details in `docs/btb-homepage-build.md`. Still needs real project images (hero placeholder remains), credentials and reviews, service area, Privacy and Terms pages. This page is the destination for all traffic (the free mockup). |
+| Package sheet (4 tiers) | Live, needs rebrand | Source in `docs/grnded-website-ghl-packages.md` (synced from Notion, last edited 2026-09-26). 2026-09-29 local edit: CompanyCam widget included in every package with a website; Now Hiring page listed as an unpriced add-on. Notion source not yet updated with these; Steve also wants Lead System, not Online Starter, labeled "Most Popular". October Fast-Action Bonus is running. |
+| CRM campaigns (GHL) | Started (calendar only) | To build for the Lead System and Local Authority workflows in the Built To Book sub-account (location id ZGV8zr7m63uEb6IPhTSZ). 2026-09-29: sub-account had no pipelines, calendars or workflows. Claude created the "15-Minute Call" calendar (draft). The GHL API has no pipeline-creation operation, so Steve builds the pipeline by hand from the stage list in `docs/btb-mvf-map.md`. |
+| GHL mockup request form | Embedded on the live page | Claude cannot create GHL forms (no API endpoint). The live page embeds GHL form UeaJ18kaNNqe9LyQkGOW ("Built 2 Book Homepage Form"). Not yet verified: that a test submission creates a contact and fires the notification. |
+| Social media content plan | Launching now | Foundations: `docs/btb-niche-profile.md`, `docs/btb-offer-worksheet.md`, `docs/btb-brand-of-you.md`, `docs/btb-positioning.md`, `docs/btb-branding-checklist.md`; plan and first draft posts in `docs/btb-launch-and-content-plan.md` (all 2026-09-29). Steve is starting promotion now. Instagram bio options and a Facebook intro, About checklist and pinned first post were given 2026-09-29. Steve owes his core stories; Claude then drafts the reintroduction post and the first weeks of posts. |
+| Offer work | Worksheet done, in review | `docs/btb-offer-worksheet.md`: ten pains, ten solutions, fears, 10x ideas, four core and four logistical pillars, milestone map. Four-package ladder kept. Hiring add-on still to spec and price. |
+| Brand of you | Worksheet done, in review | `docs/btb-brand-of-you.md`: philosophy, world, storylines, enemies, mechanism. Steve is the face; family stays out of content; origin story set in the scaling years at the epoxy and countertop companies. |
+| Positioning | Worksheet done, in review | `docs/btb-positioning.md`: alternatives, three capabilities, value themes and evidence, best-fit client, market category. |
+| Branding checklist | Done, with gaps | `docs/btb-branding-checklist.md`: checklist status, handles, Canva kit, social templates, on-camera look. |
+| Offer document | Draft written, needs Steve's inputs | `docs/btb-offer-doc-draft.md`: two versions (A without investment, B with). Steve pastes into Breezedoc (Claude has no Breezedoc connection). Placeholders remain for proof, weekly time needed, support wording, hiring add-on and legal ownership wording. Add the CompanyCam widget to the inclusions. |
+| Launch and content plan | Draft written, in review | `docs/btb-launch-and-content-plan.md`: launch sequence, lead-efficiency math, core premise, seven content types, October weekly themes, daily cadence, first draft posts. |
+| Minimum viable funnel (MVF) | Mapped; calendar created, pipeline pending | `docs/btb-mvf-map.md`: napkin flow, asset choices, nine pipeline stages, automations, lead-efficiency table, starter DM scripts, build order. Calendar "15-Minute Call" created as a draft (id fjaJhONk04j50Re5YIoT; inactive, no host or availability set). Steve must add himself as host, set availability and activate it. Pipeline, workflows and welcome sequence not built. |
+| Conversion ecosystem | Plan written, nothing built | `docs/btb-conversion-ecosystem.md` (updated 2026-09-29): profile as landing page, request page (today the live homepage with the GHL form; single-purpose page optional after two weeks of data), confirmation page with call offer, five-email welcome sequence in GHL, regular offer emails, DMs, tracking, cold-email compliance check, build order. |
+| Daily actions | Draft written, targets to confirm | `docs/btb-daily-actions.md` (2026-09-29): about one hour a day, ten actions, reach-out channel rules, KPI table, weekly rhythm. Numbers are proposed starting targets until Steve confirms. |
+| Lead magnets | Decided: the mockup is the magnet | `docs/btb-lead-magnets.md` (updated 2026-09-29): the free website mockup is the first and only magnet for now; all traffic goes to it. Optional video audit as a bonus. Self-serve guides parked; grid kept for later. |
+| Golden interview questions | Added 2026-09-30 | `docs/btb-golden-interview-questions.md`: nine customer interview questions from Steve's business coach, with an interview log. Used to write Variant E of the homepage in owners' own words. |
+| Shared repo (Claude and ChatGPT) | Set up 2026-09-30 | Docs moved from the Claude Project into this GitHub repo so both assistants work from one copy. Shared rules in `AGENTS.md`. The Visual Identity Guide PDF still needs to be added to `assets/` by hand. |
+
+### Archived
+
+*(Move completed projects here rather than deleting them.)*
+
+- Visual identity system v1.0 created (2026-09-29).
+
+---
+
+## Core Memory
+
+- **Business:** Built To Book is a sub-brand of Grnded Agency. Owner: Steve McKenna, Calgary. Sells websites, Google Business Profile setup and GHL CRM/follow-up systems to established local contractors and home-service businesses.
+- **Rebrand decision:** This project moved from running under Grnded Agency to the Built To Book sub-brand (2026-09-29). Client-facing material uses Built To Book; Grnded remains the parent.
+- **Promise:** Websites built to win the next job.
+- **Pillars:** Capable, Direct, Dependable.
+- **Voice:** Specific, useful, candid, confident, local. Avoid disruptive, cutting-edge, leverage, funnel hacking, AI-powered. Never use the word "funnel" in client-facing copy.
+- **Visual identity:** Jobsite Ink #151A18, Blueprint Blue #2E6171, Signal Green #C7F36B (CTA and booked state only), Safety Orange #F26B38 (rare), Concrete White #F4F3ED. Arial Black display, Arial body. Logo is a block-built B plus a booking checkmark. Full rules in the Visual Identity Guide.
+- **Packages:**
+  - Google Ready: $297 setup + $147/mo
+  - Online Starter: $597 + $197/mo
+  - Lead System (the most popular package, per Steve 2026-09-29): $997 + $297/mo
+  - Local Authority: $1,997 + $497/mo
+  - Initial payment = setup + first month. Month to month, 30 days' cancellation notice.
+- **CompanyCam widget (Steve, 2026-09-29):** Included in every package that has a website (Online Starter, Lead System, Local Authority). The client uses their own CompanyCam account; the widget displays their photos. Idea came from Steve's calls with operators, who liked the detailed how-it-works ideas. Google Ready has no website, so it is excluded.
+- **Now Hiring page (Steve, 2026-09-29):** Stays an add-on, not included. Still not scoped or priced; do not quote a price. Not shown on the homepage.
+- **Promotion:** October Fast-Action Bonus for the first five sign-ups in October: $100 in text and call credits plus a Google review QR plaque or vehicle decal. On the homepage as a banner above the packages, with "Ends October 31". No remaining-spots count unless Steve tracks it accurately.
+- **Launch guarantee:** On-time launch only: if the agreed launch date is missed, the first month of management is free; the date counts from receipt of all required materials (seven business days for Online Starter). Design revised until approved, within the package's pages and features. No results guarantee.
+- **Website plan:** One continuous homepage. Order now: Hero, trades strip, founder band, Lead System + Local Authority (bonus banner, guarantee), Outcomes, CRM + Automations, Process, FAQ, form. Primary goal is Request a free mockup. Mobile first, persistent CTA.
+- **Founder band (Steve, 2026-09-29):** Steve's headshot (real photo) with "Built in Calgary by Steve McKenna" on the homepage. No phone number for now; the mockup form stays the one action.
+- **Website launch platform:** Unbounce. Live URL: https://try.built2book.live/home (domain built2book.live, subdomain "try"). Page: Unbounce client "Steve McKenna" (client id 5678976), page "Home Page", uuid 4d5a0fe5-9c01-4978-be67-eef8056e3503. Variant A is the original blank builder page; Variant B (id 326592200) is the Built To Book build, noindex. Unbounce edits are staged until publish_page is run, which needs Steve's OK.
+- **GHL sub-account for the brand:** "Built To Book", location id ZGV8zr7m63uEb6IPhTSZ, timezone America/Edmonton, dashboard at https://app.grndedagency.com/v2/location/ZGV8zr7m63uEb6IPhTSZ/dashboard. Authorized on Claude's GHL connection as of 2026-09-29. Claude's connection could not list users in this sub-account (user search returned none), so it could not assign a calendar host.
+- **Tracking plan:** Form start and completion, CRM contact created, first response, booked call.
+- **Tools connected (Claude):** GHL (agency-level, includes the BTB sub-account), Unbounce (MCP-built pages cannot be edited in the Unbounce builder), Miro, Canva, Kit, Gmail, Google Drive and Calendar, Notion, Meta Ads, Apollo, Clay, Scrap.io, Expandi, Tella, Score App. Steve uses Breezedoc for signable documents; Claude has no Breezedoc connection. ChatGPT's tool access may differ; check before assuming it can act in any of these systems.
+- **GHL limits:** The GHL API cannot create or edit forms, and has no pipeline-creation operation. Forms and pipelines are built by hand in GHL; the assistant supplies the spec and Custom CSS (follow the ghl-form-styling rules: no html/body prefixes, no variables, color paired with opacity 1). Calendars can be created through the API. Ask Steve before any write in GHL.
+- **Working preference:** No em-dashes or double dashes in any output.
+- **Environment note:** Claude's cloud workspace cannot reach Unbounce's file-upload host (blocked by org egress policy), so HTML goes to Unbounce via the inline upload tool instead of curl. The inline tool takes text only, so small images go in as base64 data URIs inside the HTML.
+- **Niche (2026-09-29):** Any established local home-service business is viable; no trade is excluded (roofing, HVAC, plumbing, electrical, remodel, concrete, landscaping, permanent lighting, epoxy garage coatings, countertop fabricators, flooring retailers and more). Narrow to specific trades at the campaign level later. Both owner-operators (1 to 10 crew) and firms with 10+ staff. Full profile in `docs/btb-niche-profile.md`.
+- **Three content lenses (Steve, 2026-09-29):** (1) win better jobs; (2) attract better talent, since marketing is a real hiring advantage; (3) CRM and follow-up that improve customer service while taking manual work off the owner. Owners often work 24/7, so content must reassure them that better systems do their customers a favor as well as themselves.
+- **Steve's proof story:** He built a garage epoxy flooring brand and a countertop fabricator into large multi-figure businesses. Content angle: "this is how I did it and it worked," plus what he has learned as a full-time marketer. He does not want specific numbers stated; get his approval on exact wording before using any figure.
+- **Social plan decisions:** Platforms first are Facebook, Instagram, YouTube Shorts and TikTok. On camera is a mix of Steve talking head and screen-based content. The training videos that inspired the niche, offer, brand, positioning, branding, offer-document, launch, content, MVF, conversion-ecosystem, daily-actions and lead-magnet exercises are private reference only: no quotes, no name-dropping.
+- **Offer principle (2026-09-29):** Lead with the pain, not the solution. No single lead pain is chosen; missed calls and slow follow-up, website worse than the work, not showing on Google, and owner tied to the phone 24/7 are all to be tested and rotated. Full worksheet in `docs/btb-offer-worksheet.md`.
+- **Ten-times ideas (2026-09-29):** On-site photo and video shoot, done-for-you recruiting ads, monthly owner strategy session, and an automated voice receptionist that answers every call (Steve specified AI, not human; client copy should say what it does and avoid the phrase "AI-powered").
+- **Package ladder (2026-09-29):** Keep the four packages as the milestone map. No new entry tier or premium tier for now.
+- **Prepay option (2026-09-29):** Not offered. A three-month prepay would conflict with the month-to-month, no-minimum, no-prepay-discount decision. Steve can revisit if cash flow becomes a priority.
+- **Brand of you (2026-09-29):** Steve is the face of the brand. Family stays out of content entirely (no names, nicknames or characters). Origin story is set in the scaling years at the epoxy and countertop companies. Named enemies are practices, never people or companies: agencies that overpromise and lock you in; template sites that hide great work; chasing every lead by hand; agencies that do not understand the details of running a trades company. Full sheet in `docs/btb-brand-of-you.md`. Mechanism name, side quest, identity label and the vehicle, internal and external stories are still open.
+- **Positioning (2026-09-29):** Alternatives prospects choose instead: DIY builders, a local freelancer or relative, big home-service marketing agencies. Owners just starting their own company, and owners with a poor website, are good moments to engage. Three distinct capabilities: free mockup before paying; site plus follow-up as one system; operator who has run trade businesses. Best-fit client: owners who lose leads while on the job. Market category: "marketing partner for trades." No client case studies yet; never invent proof. Full sheet in `docs/btb-positioning.md`. Do not watch or name competitors after setting positioning.
+- **Social handles (2026-09-29):** Facebook page (https://www.facebook.com/profile.php?id=61594674162361) and Instagram (https://www.instagram.com/built.tobook/) are secured. YouTube and TikTok are still to be claimed. Instagram bio (recommended): "Websites and follow-up built for trades. By someone who's run trade companies. Free website mockup below." Trademark and domain clearance must finish before any paid promotion or printing.
+- **Brand assets (2026-09-29):** Final logo files are ready. No Built To Book brand kit exists in Canva yet; Claude cannot create kits, so Steve builds it (logo, five colors, Arial Black and Arial). Profile images: the mark on brand pages, Steve's headshot on personal profiles and the homepage founder band.
+- **On camera (2026-09-29):** Steve films mainly in the office and will try AI-generated jobsite imagery. Guardrail: AI imagery is atmosphere only, never presented as a real client project or proof; label it illustrative where it could be mistaken for real; swap in real photos of real work as soon as available.
+- **Offer document (2026-09-29):** Two versions: A (no investment, for colder contacts) and B (with investment, for warm contacts). Terms stay month to month; no minimum commitment or prepay discount. Scarcity is the October Fast-Action Bonus only (first five sign-ups); only show remaining spots if the count is accurate. Guarantee is on-time launch only, never a results guarantee. Steve uses Breezedoc for signable documents. Draft in `docs/btb-offer-doc-draft.md`.
+- **Launch and content (2026-09-29):** Steve is starting promotion now and says there are no major blockers he cannot overcome immediately. Core premise to repeat: "built by an operator" (the website and follow-up system built by someone who has run trades companies). Client goal: five new clients a month. Cadence: daily short video (filmed mainly in the office, repurposed to Facebook Reels, Instagram Reels, YouTube Shorts and TikTok) plus a few text posts a week. Launch opens with a value-trade call (15-minute call with a trades owner) and a power-offer post. Full plan in `docs/btb-launch-and-content-plan.md`.
+- **Minimum viable funnel (2026-09-29):** Napkin flow: new lead, lead tracked, contacted, offer made, then pitch, punt or persevere. The free mockup is the lead magnet; a 15-minute call is the sales mechanism; no video sales letter for now. DMs and follow-up run from Facebook and Instagram first while video is repurposed to all four platforms. Nine pipeline stages drafted; automations and starter DM scripts in `docs/btb-mvf-map.md`. Steve approved creating the calendar in GHL (2026-09-29); the "15-Minute Call" calendar exists as an inactive draft.
+- **Conversion ecosystem (2026-09-29):** The free mockup is the offer, with an optional personal video audit (reply "got it") as a bonus. Email runs in GoHighLevel (not Kit). Entry offer after the sequence is the Google Ready package. Outreach is warm contacts plus targeted cold email, with a compliance check (CASL consent, identification, unsubscribe, targeted B2B only) before any cold email. Five-email welcome sequence, then two to three offer emails a week. The confirmation page is a line-in-the-sand offer and is expected to book few calls. Optimize for sales, not requests. Story emails use Steve's own true experience; never invent case studies or drama. The trainer's week-one numbers are not benchmarks for Built To Book. Full plan in `docs/btb-conversion-ecosystem.md`.
+- **Daily actions (2026-09-29):** Fixed daily hour of sales and content actions, done before other work. Proposed targets: 10 to 15 reach-outs, 5 to 10 follow-ups, 10 to 20 comments (start lower, build up over two weeks). Reach-outs are warm DMs, value-trade invitations and local owner conversations; no bulk cold DMs on new Facebook and Instagram accounts; targeted cold email only after the compliance check. Offer emails stay at two to three a week rather than daily until the list warms up. Full plan in `docs/btb-daily-actions.md`.
+- **Lead magnets (Steve, 2026-09-29):** The first lead magnet is the free website mockup, and all traffic is driven to it. Use a tracked link per source. Protect Steve's time with a fit check (established business, real work to show, decision maker) and a daily cap on mockups. Self-serve guides are parked. Full plan in `docs/btb-lead-magnets.md`.
+- **Business coaching (2026-09-30):** Steve started coaching with Michelle Nedelec on 2026-09-30. Her golden interview questions are in `docs/btb-golden-interview-questions.md` (private reference; do not name the source in public content). Plan: interview about 8 trades owners, reuse their exact words for headlines. Homepage Variant E ("Interview Voice") was drafted from Steve's own answers.
+- **Homepage variants (2026-09-30):** Variant B is the champion (staged edits unpublished). Variant C (Contractor Growth Audit, Steve-supplied copy) and Variant E (Interview Voice) are staged challengers at 0% traffic, not published. Variant C differs from earlier decisions (Tier 3 Market Dominance, Local Authority labeled most popular, a 60-day results guarantee, unsourced stats); Steve must confirm before it goes live. See `docs/btb-homepage-build.md`.
+
+---
+
+## Open Items
+
+- Publish the staged homepage edits (needs Steve's OK), then check desktop and mobile, especially the headshot and the guarantee and bonus wording. Confirm "Ends October 31" is right.
+- Rewrite the package document under the Built To Book name (title, "hosted and managed by," ownership wording). Ask Steve whether legal and billing wording should keep "Grnded Agency." Update the Notion source with the CompanyCam decision and move the "Most Popular" label from Online Starter to Lead System.
+- Complete trademark and domain clearance for Built To Book before paid promotion or printing.
+- Confirm Stripe checkout naming and GHL sub-account branding for the new name. The live landing page uses the domain built2book.live.
+- Test the live mockup form end to end: submit a test entry and confirm a contact is created in the Built To Book sub-account and the notification fires. This matters more now that all traffic goes to it.
+- Replace the remaining placeholder on the live page ("Your project or crew photo goes here") with real work; add credentials, reviews, service area, Privacy and Terms pages.
+- Steve to correct the Draft items in the niche, offer, brand-of-you, positioning, branding, launch and MVF sheets, set the minimum client fit, and approve wording for the epoxy and countertop results.
+- Spec and price the hiring add-on (Now Hiring page); decide whether any 10x ideas become real add-ons; decide whether a free audit or scorecard is worth building; set the headline-pain rotation schedule.
+- CompanyCam widget: confirm how it will be built and connected (embed or integration), what the client must set up, and add it to the offer document.
+- Brand of you: choose a side quest, mechanism name and identity label; write the vehicle, internal and external stories in Steve's words; then draft the reintroduction post and email.
+- Positioning: collect the first real client proof (with permission); decide the content angle for owners just starting their own company; revisit positioning in a couple of months.
+- Branding: Steve builds the Canva brand kit and tells the assistant; claims YouTube and TikTok handles; decides on a mood board; the assistant then builds social templates from the kit. Steve applies the Instagram bio and Facebook intro, About details and pinned post.
+- Offer document: Steve fills the placeholders (real proof, weekly time needed from the owner, support wording, final recap items, legal ownership wording), decides on the hiring add-on mention, and pastes the finished versions into Breezedoc. Update the October section each month.
+- Launch and content: Steve supplies his core stories (origin, vehicle, internal, external, one or two "that's me" stories); picks the number of owners for the value-trade call and where first conversations come from; names a first real case study with permission. The assistant then drafts the reintroduction post and the first two weeks of posts and scripts.
+- MVF: Steve builds the nine-stage pipeline by hand in GHL (pipelines cannot be created through the API); adds himself as host of the "15-Minute Call" calendar, sets availability and activates it; decides where lead alerts go; chooses the welcome email sequence length and voice; after two weeks, replace the illustrative conversion rates with real data.
+- Conversion ecosystem: Steve approves whether the assistant drafts the five emails for GHL; decides the fit check and daily cap for mockups and video audits; supplies the email sender name, postal address for footers and lead-alert destination; completes the cold-email compliance check (consider a lawyer) before any cold email; after about two weeks, decide whether to build a single-purpose request page.
+- Daily actions: Steve confirms the proposed daily targets; picks where the KPI tracker lives; sets a protected time for the hour; decides whether Juan or another team member can take inbox or comment engagement.
+- Lead magnets: Steve confirms the fit check, daily cap and whether the video audit stays as a bonus; tracked links per traffic source are set up and placed in bios and posts; after about two weeks, review whether a second magnet is needed.
+- Golden interviews: run about 8 owner interviews, log them in `docs/btb-golden-interview-questions.md`, and rewrite homepage headlines in their exact words. Steve to confirm the plumber quote in Variant E.
+- Repo: add the Visual Identity Guide PDF to `assets/`; connect the repo to both Claude and ChatGPT; decide how often to re-sync each assistant's copy.
+
+---
+
+## Contacts
+
+| Name | Role | Notes |
+|---|---|---|
+| Steve McKenna | Owner | Final sign-off on all client-facing content. |
+| Michelle Nedelec | Business coach | Started 2026-09-30. Source of the golden interview questions. Private reference only. |
+| *(Add contacts here as they come up)* | | |
+
+---
+
+## Key Decisions
+
+| Decision | Rationale | Date |
+|---|---|---|
+| Launch Built To Book as a sub-brand for contractor sales | Contractor-first identity: capable, direct, dependable, no agency fog | 2026-09-29 |
+| Lead with Lead System and Local Authority on the homepage | Higher-value offers with CRM and automation; wireframe implementation notes | 2026-09-29 |
+| Lead System is the most popular / featured package (not Online Starter) | Steve's call; matches homepage focus | 2026-09-29 |
+| Primary CTA = request a free mockup | Matches the sales motion: prospect sees a researched concept before buying | 2026-09-29 |
+| Signal Green reserved for primary CTAs and booked outcomes | Keeps one unmistakable conversion signal | 2026-09-29 |
+| Homepage uses Arial Black / Arial per the Visual Identity Guide, not the Archivo Black / Inter used in the wireframes | Guide is the brand source of truth; also no external font dependency on Unbounce | 2026-09-29 |
+| Homepage built as new Variant B rather than editing Variant A | Variant A was hand-built in the Unbounce builder and cannot be edited through the connector | 2026-09-29 |
+| Mockup request form moves from the Unbounce form to a GHL form embed | Leads land directly in the BTB GHL sub-account for speed-to-lead automation | 2026-09-29 |
+| Run the niche exercise on Built To Book's own contractor audience; source video is private reference only | Content should be in Built To Book's voice, not borrowed | 2026-09-29 |
+| Keep the niche open to all home services; narrow only at campaign level | Any home-service niche is viable; do not limit the brand or general content | 2026-09-29 |
+| Content covers sales, hiring and customer service, not sales alone | Marketing helps attract talent; CRM improves service and lightens owner workload | 2026-09-29 |
+| Feature visual trades and Steve's epoxy and countertop experience as content formats | Before/after suits short video; Steve has real firsthand credibility | 2026-09-29 |
+| Rotate and test all lead pains rather than picking one | Steve: all are viable; performance data should decide | 2026-09-29 |
+| Hiring support (Now Hiring page) is an add-on, not bundled | Steve's call (confirmed again 2026-09-29); keeps packages simple and gives an upsell | 2026-09-29 |
+| CompanyCam widget included in every package with a website; client uses own account | Steve's call; idea came from operators on his calls; fits the "real work" rule | 2026-09-29 |
+| Keep the four-package ladder | It already works as the milestone map | 2026-09-29 |
+| Steve is the face of the brand | His story and voice front content; Built To Book is what he sells | 2026-09-29 |
+| Family stays out of all content | Steve's privacy call | 2026-09-29 |
+| Origin story set in the scaling years at the epoxy and countertop companies | Attracts established owners at the same stage | 2026-09-29 |
+| Enemies are named as practices, not people or companies | Keeps the tone Direct and Dependable, avoids attacks | 2026-09-29 |
+| Three capabilities: free mockup, site plus follow-up as one system, operator experience | Steve's pick; hard to copy as a combination | 2026-09-29 |
+| Best-fit client is owners who lose leads while on the job | Matches the lead pain and the Lead System offer | 2026-09-29 |
+| Market category: "marketing partner for trades" | Steve's call; must still spell out what the partner delivers | 2026-09-29 |
+| Mark on brand pages, Steve's headshot on personal profiles | Follows the guide and supports Steve as the face | 2026-09-29 |
+| AI-generated jobsite imagery is atmosphere only, never proof | Brand rule is real work; Steve's rule is no invented proof | 2026-09-29 |
+| Keep month-to-month terms; no minimum commitment or prepay discount | Steve's call; stays a differentiator and matches the package document | 2026-09-29 |
+| No prepay option on the homepage | Conflicts with month-to-month; Claude advised against, Steve did not ask for it | 2026-09-29 |
+| Two offer-doc versions (with and without investment) | Cold contacts should not see price first; warm contacts get it | 2026-09-29 |
+| Offer-doc scarcity is the October Fast-Action Bonus only | It is real and time-limited; avoids fake scarcity | 2026-09-29 |
+| October bonus moved next to the pricing, with "Ends October 31" and no remaining-spots count | Makes the real deadline visible without invented scarcity | 2026-09-29 |
+| Launch guarantee added to the homepage with its conditions (materials received, revisions within package scope) | Takes risk out of the payment due today; matches the package document | 2026-09-29 |
+| Founder band with Steve's headshot and "Built in Calgary by Steve McKenna"; no phone number for now | Real person and local trust; Steve chose to leave the number off | 2026-09-29 |
+| Start promoting now; do not wait on launch blockers | Steve's call; says blockers are quickly solvable | 2026-09-29 |
+| Core premise is "built by an operator" | Combines two capabilities; hard to copy | 2026-09-29 |
+| Goal of five new clients a month | Steve's target; matches the October bonus | 2026-09-29 |
+| Daily short video plus a few text posts a week | Steve's chosen cadence | 2026-09-29 |
+| MVF: free mockup is the lead magnet, 15-minute call is the sales mechanism, no video sales letter | Keeps it minimal and matches the existing offer and CTA | 2026-09-29 |
+| Landing page live at try.built2book.live/home | Steve created it in Unbounce; promotion links here | 2026-09-29 |
+| "15-Minute Call" calendar created in GHL as an inactive draft | Steve approved; host and availability must be set by Steve | 2026-09-29 |
+| Personal video audit is an optional bonus to the mockup, not a second offer | Steve's earlier pick, kept as a layer so messaging stays about one thing | 2026-09-29 |
+| Email sequences run in GoHighLevel, not Kit | Steve's pick; keeps leads, email and pipeline in one place | 2026-09-29 |
+| Entry offer after the sequence is the Google Ready package | Steve's pick; lowest-friction package in the ladder | 2026-09-29 |
+| Outreach is warm contacts plus targeted cold email, after a compliance check | Steve's pick; CASL and platform rules make cold outreach a careful add-on | 2026-09-29 |
+| Daily actions adopted as a fixed hour of sales and content work, with reduced starting targets | Steve said go ahead; consistency beats volume, and new accounts risk platform limits if reach-outs are bulk | 2026-09-29 |
+| Offer emails stay at two to three a week, not daily, until the list warms up | New list; keeps opens and replies healthy | 2026-09-29 |
+| The free website mockup is the first and only lead magnet; all traffic goes to it | Steve's call; replaces the suggested Google guide, which is parked | 2026-09-29 |
+| Keep the live homepage as the destination for now; consider a single-purpose request page after two weeks of data | Homepage already has one main action; avoid building more before there is traffic data | 2026-09-29 |
+| Move project docs into a private GitHub repo shared by Claude and ChatGPT | One source of truth for both assistants; version history; plain markdown | 2026-09-30 |
+
+---
+
+## Glossary
+
+- **BTB / Built To Book:** the contractor-facing sub-brand.
+- **GHL:** GoHighLevel / LeadConnector, the CRM and automation platform.
+- **Mockup / concept:** the free, researched homepage concept sent to a prospect before they choose a package. It is the lead magnet.
+- **Booked state:** a completed booking, shown with Signal Green and the check.
+- **Value trade:** a 15-minute call where the owner gives feedback on their leads and follow-up, then sees the offer.
+- **MVF:** minimum viable funnel, the simple internal lead flow. Never say "funnel" in client-facing copy.
+- **Pitch, punt or persevere:** the three outcomes after an offer is made: send the offer, close the lead, or keep nurturing.
+- **Got it:** the reply word a mockup requester sends to trigger Steve's personal video audit of their website and Google profile.
+- **Line in the sand:** the confirmation page and end-of-sequence offer that make it clear Built To Book sells something.
+- **Daily actions:** the fixed hour of sales and content tasks done every day before other work.
+- **Lead magnet:** internal term for the free thing an owner opts in to get. For Built To Book, the free website mockup. Say "free mockup" in public copy.
+- **CompanyCam widget:** an embed on the client's site that shows job photos from the client's own CompanyCam account.
+- **Now Hiring page:** careers page, application form and hiring pipeline; an unpriced add-on.
+- **Golden interview:** the short customer interview used to get owners to describe their problem in their own words.
+
+---
+
+At the end of every conversation, update this file automatically with anything new: decisions made, progress, or things learned.
