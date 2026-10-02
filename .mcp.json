@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "leadconnector": {
+      "type": "http",
+      "url": "https://services.leadconnectorhq.com/mcp/anthropic/v2"
+    },
+    "sheets": {
+      "type": "stdio",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\Users\\SteveMcKenna\\.gsheets-mcp\\start-mcp-sheets.mjs"
+      ]
+    },
+    "unbounce": {
+      "type": "http",
+      "url": "https://mcp.unbounce.com/mcp"
+    }
+  }
+}

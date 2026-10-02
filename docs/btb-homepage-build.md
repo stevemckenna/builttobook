@@ -1,4 +1,4 @@
-# Built To Book Homepage: Build Notes (updated 2026-09-30)
+# Built To Book Homepage: Build Notes (updated 2026-10-01)
 
 **Where it lives:** Unbounce page "Built 2 Book - Home Page" (client "Steve McKenna", client id 5678976, page uuid 4d5a0fe5-9c01-4978-be67-eef8056e3503). Variant B, "Built To Book Homepage v1 (staged)", is the champion (100% traffic). Variant A is the original hand-built blank page (discarded). Live URL: https://try.built2book.live/home. Variants B and C are set to noindex.
 
@@ -10,7 +10,30 @@
 
 **Form:** the close section embeds a GHL form (form id UeaJ18kaNNqe9LyQkGOW, "Built 2 Book Homepage Form"). The old Unbounce form script (btb-form) is dead code and can be removed.
 
+**Chat widget:** the live GHL website uses the site-level chat widget `Built To Book Website Chat` (widget id `6abe848ed2e8beb1e4c344d9`). It is selected under Website Settings, not added as a custom body tracking script. Verified 2026-10-01 on `https://www.built2book.live/homepage` and `https://www.built2book.live/built-to-book`: one `chat-widget` source (`WEBSITE`), visible launcher, and open panel with the Built To Book welcome message. Proof screenshot: `docs/btb-chat-widget-proof.png`.
+
 **Copy sources:** prices, inclusions, guarantee, cancellation terms and October bonus come from `docs/grnded-website-ghl-packages.md`. No testimonials, reviews or case studies were invented; hero image and concept cards are labeled placeholders.
+
+## Changes 2026-10-01: GHL Chat Widget
+
+- Created GHL live chat widget `Built To Book Website Chat` in the Built To Book location.
+- Set the prompt to: "Have a question before you request a free mockup? Ask here."
+- Set the chat title to `Built To Book` and the intro message to: "Ask a question or tell us what is holding back your website, Google profile, or follow-up. We will reply as soon as we can."
+- Kept name and phone as required contact fields. Attachments and voice notes are off. Notification sound is on. Agency branding is off.
+- Left the compliance notice and required consent checkbox on, with SMS and email reply consent wording.
+- Attached the widget at the GHL website settings level for the `built2book.live/homepage` site.
+- Removed the duplicate direct body embed after verifying the site-level widget was loading, so only one public widget renders.
+- Opened the widget on the live page without submitting a test message. A full end-to-end test still needs Steve's review.
+
+## Changes 2026-10-01: BW Plumbing Mockup Images
+
+- Uploaded `bw-plumbing-home-desktop.png` and `bw-plumbing-home-mobile.png` to GHL Media Storage.
+- Published the GHL homepage at https://www.built2book.live/built-to-book with those two images in the hero, replacing the old "Your project or crew photo goes here" placeholder.
+- Saved a proof screenshot at `ghl-hero-after-publish.png` in the repo root.
+- Staged the same hero mockup treatment in Unbounce active variants B, C and E. Variant B and E replace the placeholder hero card. Variant C adds the mockup visual beside the existing text-only hero.
+- Unbounce was not republished. Public visitors at https://try.built2book.live/home will not see these Unbounce hero changes until Republish is clicked.
+- Later on 2026-10-01, removed the green "Desktop and mobile concept preview" overlay from the GHL hero mockup custom code and published the page. Verified live at https://www.built2book.live/built-to-book; proof screenshot saved at `docs/btb-ghl-hero-no-label-proof.png`.
+- Also on 2026-10-01, ChatGPT checked all Unbounce variants. Variants B, C and E had the green mockup label in their staged custom HTML, so a staged CSS hide rule was added to each custom HTML block. Variant A had no custom HTML mockup placeholder, and Variant D had no `.mock-label`. Staged previews for A, B, C, D and E all verified with no `.mock-label` rendering. Unbounce was not republished.
 
 ## Variant E: "Built To Book Homepage: Interview Voice (Feast or Famine)" (staged 2026-09-30)
 
@@ -54,11 +77,12 @@ Differences from the package doc and earlier decisions (all from Steve's supplie
 - **Not done (by decision):** prepay option (conflicts with the month-to-month decision).
 
 ## To do before or after publishing
-- Publish the staged Variant B changes (needs Steve's OK), then check the page on desktop and mobile, especially the headshot.
+- Republish Unbounce when Steve wants the B, C and E mockup hero changes live. The green "Desktop and mobile concept preview" label is already hidden in staged previews across all variants. Check desktop and mobile, especially the headshot and hero mockup framing.
 - Variant C: Steve to confirm the flagged copy differences (Tier 3, guarantee, most popular label, stats), then give it a traffic share and publish (needs Steve's OK).
 - Variant E: Steve to confirm the plumber quote and minute text-back wording, then decide on a traffic share and publish (needs Steve's OK). Decide whether it should carry pricing or the headshot.
-- Real content: 3 project images, credentials and reviews, service area, service categories. The hero on Variant B still shows the "Your project or crew photo goes here" placeholder.
+- Real content: credentials and reviews, service area, service categories, Privacy and Terms pages.
 - Test the GHL form end to end (contact created, notification fires).
+- Test the GHL chat widget end to end (contact created or attached, notifications fire, routing is right).
 - Privacy and Terms pages, then add footer links.
 - Domain and trademark clearance, then remove noindex.
 - Add tracked links per traffic source (see `docs/btb-lead-magnets.md`).

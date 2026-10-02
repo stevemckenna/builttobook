@@ -57,6 +57,9 @@ Built To Book replaces Grnded Agency as the **client-facing brand** for this pro
 - When drafting emails, match the formality of the message being replied to, and check for an existing thread with that recipient before starting a new one.
 - If unsure about something, say so. Don't guess.
 - Before publishing, sending or spending anything on Steve's behalf (Gmail, GHL, Unbounce, Meta, Kit, Slack), confirm with him first.
+- For Framer mockups, publish the mockup after Steve approves and share the live Framer website URL, not screenshot-only links. Screenshots are useful for review, but the handoff link should be the published Framer URL. Every mockup handoff should include a desktop version and a mobile version, either as viewport-specific preview links/screenshots or clearly labeled viewing instructions when the live Framer URL is responsive.
+- **GHL MCP:** Use the repo `leadconnector` MCP from `.mcp.json` for Built To Book. It uses HighLevel's Claude-specific OAuth endpoint. In Claude web, the existing custom connector appears as `GHL` and is already connected to `https://services.leadconnectorhq.com/mcp/anthropic/v2`; do not try to add a duplicate connector with the same URL. Always pass the Built To Book location id explicitly: `ZGV8zr7m63uEb6IPhTSZ`. Do not use an old global `highlevel` private-token MCP for Built To Book unless Steve confirms it is newly authorized to this location.
+- **Google Sheets MCP:** Use the repo `sheets` MCP from `.mcp.json` for Google Sheets work in this project. The local server lives at `C:\Users\SteveMcKenna\.gsheets-mcp\start-mcp-sheets.mjs` and exposes spreadsheet find, create, metadata, read, write, append and clear tools. If Claude cannot use Sheets, first check `auth-status`; as of 2026-10-01 the local token tests as authorized.
 - **GHL forms:** the GHL API cannot create or edit forms. Give Steve a field spec and Custom CSS to paste into the GHL form builder, and say plainly that he has to build it. When styling GHL forms, follow the `ghl-form-styling` skill if you have it (no html/body selector prefixes, no CSS variables, always pair color with opacity 1).
 
 ---
@@ -68,6 +71,7 @@ This repo is the source of truth for what exists and where. All working docs liv
 | Asset | What it is | Go here when... |
 |---|---|---|
 | `assets/Built-to-Book-Visual-Identity-Guide.pdf` | Visual identity v1.0: brand foundation, logo, color, type, graphic language, applications | ...designing or writing anything visual, or checking brand rules |
+| `assets/btb-homepage-hero-mockup-redacted.png` and `.webp` | Redacted homepage hero mockup image for public marketing, website previews and email signature use | ...showing the free mockup concept publicly without exposing a real prospect's private details |
 | `docs/grnded-website-ghl-packages.md` | The four packages, pricing, inclusions, guarantee, ownership and cancellation terms, client onboarding steps | ...describing an offer, quoting a price, or writing sales copy |
 | Website wireframes (Miro): https://miro.com/app/board/uXjVHgkBTEw=/ | Desktop and mobile homepage wireframes (6 sections each) plus Implementation Notes frame | ...building or reviewing the website |
 | `docs/btb-homepage-build.md` | How the homepage was built, where it lives in Unbounce, form fields, and the launch to-do list | ...changing the homepage or preparing to launch it |

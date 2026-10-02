@@ -10,6 +10,10 @@ This repo is the shared source of truth for both Claude and ChatGPT. Keep it pri
 2. [MEMORY.md](MEMORY.md): running memory of active work, decisions, contacts and glossary.
 3. The docs below, as needed.
 
+## MCP setup
+
+- `.mcp.json` defines `leadconnector` for HighLevel and `sheets` for Google Sheets. Claude must authorize `leadconnector` to the Built To Book location before using it for GHL reads or writes. The local Sheets MCP already tests as authorized on this machine.
+
 ## Docs
 
 All working docs are in [`docs/`](docs/).
@@ -38,6 +42,7 @@ All working docs are in [`docs/`](docs/).
 |---|---|
 | [btb-launch-and-content-plan.md](docs/btb-launch-and-content-plan.md) | Launch sequence, core premise, content types, October themes, first draft posts |
 | [btb-daily-actions.md](docs/btb-daily-actions.md) | The fixed daily hour of sales and content actions, with KPIs |
+| [btb-outreach-acceleration-plan.md](docs/btb-outreach-acceleration-plan.md) | Short sales sprint plan: weak-website offer, prospect scoring and tool options |
 | [btb-mvf-map.md](docs/btb-mvf-map.md) | Minimum viable funnel: pipeline stages, automations, DM scripts, build order |
 | [btb-conversion-ecosystem.md](docs/btb-conversion-ecosystem.md) | Profile to request page to confirmation to email sequence to offers |
 | [btb-golden-interview-questions.md](docs/btb-golden-interview-questions.md) | Customer interview questions and an interview log |
@@ -47,12 +52,15 @@ All working docs are in [`docs/`](docs/).
 | File | What it is |
 |---|---|
 | [btb-homepage-build.md](docs/btb-homepage-build.md) | How the Unbounce homepage was built, variants, form embed and launch to-do list |
+| [7-star-tiles-mockup-notes.md](docs/7-star-tiles-mockup-notes.md) | Framer mockup notes, public proof and next content needed for 7 Star Tiles & Renovations |
 
 ### Assets
 
 | File | What it is |
 |---|---|
-| `assets/Built-to-Book-Visual-Identity-Guide.pdf` | Visual identity v1.0 (logo, color, type, graphic language). Add this file to the `assets/` folder; see [assets/README.md](assets/README.md). |
+| `assets/Built-to-Book-Visual-Identity-Guide.pdf` | Visual identity v1.0: logo, color, type and graphic language |
+| `assets/btb-homepage-hero-mockup-redacted.png` | Redacted homepage hero mockup image for public marketing and email signature use |
+| `assets/btb-homepage-hero-mockup-redacted.webp` | WebP version of the redacted homepage hero mockup image |
 
 ## How to keep this in sync
 

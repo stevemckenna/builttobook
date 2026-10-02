@@ -1,10 +1,15 @@
 # Assets
 
-Put brand files here.
+Put brand and reusable visual files here.
 
-## Needs to be added by hand
+## Current Files
 
-- `Built-to-Book-Visual-Identity-Guide.pdf`: the v1.0 visual identity guide. It was an uploaded file in the original Claude project and could not be copied automatically, so upload your original copy to this folder.
-- Final logo files (primary lockup, reversed lockup, mark on dark square), when you are ready to share them with both assistants.
+- `Built-to-Book-Visual-Identity-Guide.pdf`: visual identity v1.0.
+- `btb-homepage-hero-mockup-redacted.png`: redacted mockup image for public marketing, website previews and email signature use.
+- `btb-homepage-hero-mockup-redacted.webp`: WebP version of the redacted mockup image.
+
+## Still Needed
+
+- Final logo files: primary lockup, reversed lockup and mark on dark square, when you are ready to share them with both assistants.
 
 Note: AI assistants read markdown best. If the PDF's key rules are not already captured in `AGENTS.md` (the Brand at a Glance section covers colors, type, logo and photography rules), consider adding a short markdown summary of the guide next to the PDF.
