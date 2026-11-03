@@ -20,12 +20,12 @@ I={
 "priority":f'<path d="M8 28v-6a16 16 0 0 1 32 0v6" {S}/><rect x="6" y="28" width="8" height="12" fill="currentColor"/><rect x="34" y="28" width="8" height="12" fill="currentColor"/>',
 }
 CHECK=f'<svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12l5 5 9-10" stroke="{INK}" stroke-width="3.5" fill="none" stroke-linecap="square"/></svg>'
-TILES=[("net1","One ad network",1),("copy","Ad copy",1),("season","Seasonal campaigns",1),("track","Call + lead tracking",1),
-("report","Monthly report",1),("net2","Second network",2),("retarget","Retargeting",2),("alert","Instant lead alerts",2),
-("follow","Automated follow-up",2),("creative","Custom creative",2),("video","Video ad editing",3),("crm","Full CRM + booking",3),
-("cats","Every service category",3),("year","Yearly season calendar",3),("review","Bi-weekly reviews",3),("priority","Priority support",3)]
+TILES=[("net1","One ad platform",1),("copy","Ad copy",1),("report","Monthly report",1),("season","Seasonal campaigns",2),
+("track","Call + lead tracking",2),("net2","Second network",3),("retarget","Retargeting",3),("alert","Instant lead alerts",3),
+("follow","Automated follow-up",3),("creative","Custom creative",3),("video","Video ad editing",4),("crm","Full CRM + booking",4),
+("cats","Every service category",4),("year","Yearly season calendar",4),("review","Bi-weekly reviews",4),("priority","Priority support",4)]
 def ic(k,c,sz=52): return f'<svg viewBox="0 0 48 48" width="{sz}" height="{sz}" style="color:{c}">{I[k]}</svg>'
-def meter(n): return ''.join(f'<span style="display:inline-block;width:34px;height:14px;margin-left:6px;{"background:"+CON if i<n else "border:2px solid #5a6560;box-sizing:border-box"}"></span>' for i in range(3))
+def meter(n): return ''.join(f'<span style="display:inline-block;width:34px;height:14px;margin-left:6px;{"background:"+CON if i<n else "border:2px solid #5a6560;box-sizing:border-box"}"></span>' for i in range(4))
 def band(eyebrow,l1,l2,right,lvl=None):
     m=f'<div>{meter(lvl)}</div>' if lvl else ''
     return f'''<div class="band"><div class="bar"></div>
@@ -45,23 +45,24 @@ def tier(lvl,l1,l2,cap,tag=""):
             cells+=f'<div class="tile off">{ic(k,DIM)}<div class="lab">{lab}</div></div>'
     right=f'<div class="count"><b>{n}</b><span>/16</span></div>'
     legend=f'<div class="legend"><span class="lg">{CHECK}</span> New at this level</div>' if lvl>1 else f'<div class="legend">{tag}</div>'
-    return band(f"LEVEL {lvl} OF 3"+(f' &nbsp;·&nbsp; <span style="color:{GREEN}">MOST POPULAR</span>' if lvl==2 else ''),l1,l2,right,lvl)+f'<div class="grid">{cells}</div>{legend}'+foot(cap)
+    return band(f"LEVEL {lvl} OF 4"+(f' &nbsp;·&nbsp; <span style="color:{GREEN}">MOST POPULAR</span>' if lvl==3 else ''),l1,l2,right,lvl)+f'<div class="grid">{cells}</div>{legend}'+foot(cap)
 def cover():
     cols=""
-    for n,price,name in [(5,"$1,200","STARTER"),(10,"$2,500","BOOKED GROWTH"),(16,"$4,500","MARKET DOMINATOR")]:
+    for n,price,name in [(3,"$600","LAUNCH PAD"),(5,"$1,200","STARTER"),(10,"$2,500","BOOKED GROWTH"),(16,"$4,500","MARKET DOMINATOR")]:
         blocks=''.join(f'<div class="blk" style="background:{CON}"></div>' for i in range(n))
         cols+=f'<div class="col"><div class="stack">{blocks}</div><div class="price">{price}</div><div class="nm">{name}</div><div class="nm2">{n} of 16 tools</div></div>'
-    return band("ADS MANAGEMENT, PRICED IN THE OPEN","WHAT $1,200 VS $4,500","ACTUALLY GETS YOU.","")+f'<div class="cols">{cols}</div>'+foot("16 tools. Three levels. Swipe to see what each one gets.")
+    return band("ADS MANAGEMENT, PRICED IN THE OPEN","WHAT $600 VS $4,500","ACTUALLY GETS YOU.","")+f'<div class="cols">{cols}</div>'+foot("16 tools. Four levels. Swipe to see what each one gets.")
 def cta():
     return band("YOUR NEXT STEP","WHICH LEVEL","FITS YOUR SHOP?","")+f'''<div class="ctab">
 <p>Book a 15-minute fit call.</p>
 <p>We look at your area, budget and busy season. Then I'll tell you which level makes sense, even if it's the smallest one.</p>
 <div class="btn">BOOK A FIT CALL</div><div class="lib">Link in bio &nbsp;·&nbsp; @built.tobook</div></div>'''+foot("Prices monthly, CAD in Canada, USD in the US. Ad spend is separate and paid directly to Meta and Google.")
 SL=[("01-cover",cover()),
-("02-starter",tier(1,"STARTER: $1,200/MO.","ONE NETWORK. DONE RIGHT.","Meta or Google, your pick. Core copy, standard seasonal campaigns, basic tracking, monthly email report.","Ad spend separate. Paid to Meta or Google.")),
-("03-booked-growth",tier(2,"BOOKED GROWTH: $2,500/MO.","EVERY LEAD CHASED.","Both networks, retargeting, instant SMS and email lead alerts, automated follow-up, custom creative, monthly reporting call.")),
-("04-market-dominator",tier(3,"MARKET DOMINATOR: $4,500/MO.","ALL 16. EVERY SEASON.","Every service category, full retargeting, ongoing video editing, full CRM and booking, yearly calendar, bi-weekly reviews.")),
-("05-cta",cta())]
+("02-launch-pad",tier(1,"LAUNCH PAD: $600/MO.","ONE PLATFORM. GET STARTED.","Meta or Google, one platform. Core ad copy, lead forms, monthly report. The simplest way to start.","Lead forms only, no landing page. CRM is extra.")),
+("03-starter",tier(2,"STARTER: $1,200/MO.","ONE NETWORK. DONE RIGHT.","Adds standard seasonal campaigns and basic call and lead tracking, with a monthly email report.")),
+("04-booked-growth",tier(3,"BOOKED GROWTH: $2,500/MO.","EVERY LEAD CHASED.","Both networks, retargeting, instant SMS and email lead alerts, automated follow-up, custom creative, monthly reporting call.")),
+("05-market-dominator",tier(4,"MARKET DOMINATOR: $4,500/MO.","ALL 16. EVERY SEASON.","Every service category, full retargeting, ongoing video editing, full CRM and booking, yearly calendar, bi-weekly reviews.")),
+("06-cta",cta())]
 CSS=f'''@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=block');
 *{{margin:0;padding:0;box-sizing:border-box}} body{{background:#000}}
 .wrap{{width:1080px;background:{INK};position:relative;overflow:hidden}}
@@ -82,10 +83,10 @@ CSS=f'''@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&disp
 .legend{{padding:18px 56px 0;font:700 22px Arial,'Liberation Sans';color:#B8BEB9;display:flex;align-items:center;gap:12px;text-transform:uppercase;letter-spacing:.5px}}
 .lg{{width:32px;height:32px;background:{GREEN};display:inline-flex;align-items:center;justify-content:center}}
 .foot{{position:absolute;left:0;right:0;bottom:0;height:160px;background:{GREEN};color:{INK};padding:30px 56px;font:700 31px/1.3 Arial,'Liberation Sans';display:flex;align-items:center}}
-.cols{{display:flex;justify-content:space-around;align-items:flex-end;height:770px;padding:0 56px 60px}}
-.col{{text-align:center;width:320px}} .nm{{white-space:nowrap}} .stack{{display:flex;flex-direction:column-reverse;align-items:center;gap:8px}}
-.blk{{width:180px;height:30px;border-radius:2px}} .price{{font:400 64px 'Arial Black','Archivo Black';margin-top:26px}}
-.nm{{font:700 22px Arial,'Liberation Sans';letter-spacing:1px;margin-top:6px}} .nm2{{font:700 22px Arial,'Liberation Sans';color:#B8BEB9;margin-top:4px;text-transform:uppercase}}
+.cols{{display:flex;justify-content:space-between;align-items:flex-end;height:770px;padding:0 40px 60px}}
+.col{{text-align:center;width:240px}} .nm{{white-space:nowrap}} .stack{{display:flex;flex-direction:column-reverse;align-items:center;gap:8px}}
+.blk{{width:150px;height:30px;border-radius:2px}} .price{{font:400 50px 'Arial Black','Archivo Black';margin-top:26px}}
+.nm{{font:700 19px Arial,'Liberation Sans';letter-spacing:1px;margin-top:6px}} .nm2{{font:700 19px Arial,'Liberation Sans';color:#B8BEB9;margin-top:4px;text-transform:uppercase}}
 .ctab{{padding:70px 72px 0}} .ctab p{{font:400 40px/1.35 Arial,'Liberation Sans';margin-bottom:30px;max-width:900px}} .ctab p:first-child{{font-weight:700;font-size:48px}}
 .btn{{display:inline-block;background:{GREEN};color:{INK};font:400 44px 'Arial Black','Archivo Black';padding:34px 56px;border-radius:8px;margin-top:20px}}
 .lib{{font:700 30px Arial,'Liberation Sans';color:#B8BEB9;margin-top:30px;text-transform:uppercase;letter-spacing:1px}}'''
