@@ -1,6 +1,6 @@
 # MEMORY.md: Built To Book
 
-Last updated: 2026-11-02
+Last updated: 2026-11-03
 
 > **Auto-update instruction:** At the end of every conversation, update this file automatically with anything new: decisions made, progress, or things learned. No need to ask.
 
@@ -10,7 +10,7 @@ Last updated: 2026-11-02
 
 This section is current as of 2026-11-02 and overrides older notes below where they conflict.
 
-- **Offer pivot:** Built To Book now sells Meta and Google ads to home services and professional services owners in Canada and the USA. Tiers: Starter $1,200, Booked Growth $2,500, Market Dominator $4,500. A $600 downsell is used only on calls. The older four website packages below are superseded.
+- **Offer pivot:** Built To Book now sells Meta and Google ads to home services and professional services owners in Canada and the USA. Tiers: Starter $1,200, Booked Growth $2,500, Market Dominator $4,500. A $600 tier (one platform, ad copy, monthly report, lead forms only with no landing page, CRM extra) was a calls-only downsell; on 2026-11-03 Steve chose to show it publicly in the tier carousel. The older four website packages below are superseded.
 - **November bonus:** the first 5 clients who sign up in November (any tier) get 1 free edited video ad plus 1 hour of shooting ($500 value). Landing page: https://try.built2book.live/nov-promo/
 - **Copy rules:** plain language, no em dashes, no hype, no guarantees, no made-up stats, no fake testimonials. Nothing goes to team or customers without Steve's approval.
 - **Website:** built and hosted in GHL; domain built2book.live registered at Squarespace. The bare domain redirects to www.built2book.live, which is the live site. The GHL domain Default Page is now "Built To Book", so the root URL loads the main page. The old archive page is unpublished and redirected. Live pages: home, /privacy-policy, /terms-and-conditions.
@@ -19,6 +19,7 @@ This section is current as of 2026-11-02 and overrides older notes below where t
 - **Google Ads:** account 375-010-8592 (under steve@grndedagency.com), CAD, Mountain time, goal appointment leads. Ads point to the nov-promo landing page, not the Business Profile. First search campaign drafted and paused until conversion tracking on the booking thank-you page is live. Keyword list to finish after Keyword Planner results.
 - **Cold email:** 50 Winnr.app mailboxes warming in Instantly. Going 100% lead magnet based; Steve is building the new lead magnet this week (replaces the free mockup as the cold email magnet). Then landing page, 4-email sequence and leads loaded in Instantly before Nov 15.
 - **Local trade shows:** Millarville Christmas Market (Nov 5 to 8 and 12 to 15). Vendor sheet (303 vendors, 50-vendor priority list) and outreach kit are in the Built To Book Google Drive folder under "Local Trade Shows".
+- **Tier carousel (2026-11-03):** `docs/btb-tier-carousel.md` plus rendered PNGs in `docs/carousel/post` (4:5) and `docs/carousel/reel` (9:16). Steve switched from a photo concept to graphics: one 4x4 grid of 16 icon tiles lights up 3, 5, 10, 16 across Launch Pad ($600, name confirmed), Starter, Booked Growth, Market Dominator. Regular prices used. Open: approve the 16 new icons (design system has no icon set), settle the November bonus conflict (homepage says Booked Growth and Market Dominator only; nov-promo page says any package and Starter $1,000 in November), confirm the 16-tool grouping.
 - **Ad creative:** AI-generated images allowed; Steve uses a custom Gemini avatar for truck scene ads. AI imagery stays illustrative, never presented as real client work.
 
 ---

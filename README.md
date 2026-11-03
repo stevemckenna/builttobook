@@ -41,6 +41,7 @@ All working docs are in [`docs/`](docs/).
 | File | What it is |
 |---|---|
 | [btb-launch-and-content-plan.md](docs/btb-launch-and-content-plan.md) | Launch sequence, core premise, content types, October themes, first draft posts |
+| [btb-tier-carousel.md](docs/btb-tier-carousel.md) | "16 Tools, Four Levels" Instagram carousel and Reel for the four ads tiers ($600 to $4,500): slide copy, caption, art direction. Rendered slides in `docs/carousel/` |
 | [btb-daily-actions.md](docs/btb-daily-actions.md) | The fixed daily hour of sales and content actions, with KPIs |
 | [btb-outreach-acceleration-plan.md](docs/btb-outreach-acceleration-plan.md) | Short sales sprint plan: weak-website offer, prospect scoring and tool options |
 | [btb-mvf-map.md](docs/btb-mvf-map.md) | Minimum viable funnel: pipeline stages, automations, DM scripts, build order |
