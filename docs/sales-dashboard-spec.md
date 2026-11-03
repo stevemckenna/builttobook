@@ -10,7 +10,7 @@ Results first: **meetings booked** and **proposals sent** (target 5 to 10 propos
 
 - **Meeting:** any booked sales meeting or BNI 1-2-1, whether booked through a GHL calendar or added straight to Google Calendar.
 - **Meeting outcome:** after every meeting, record whether there is something to sell: `Proposal needed`, `Referral partner only` or `No fit`. This is the step that turns meetings into proposals.
-- **Proposal sent:** opportunity moved to the Proposal sent stage in GHL (proposals are signed in Breezedoc, which Claude cannot read, so the GHL stage is the record).
+- **Proposal sent:** a proposal email in steve@grndedagency.com Sent mail (pricing, options or packages sent to a prospect), or an opportunity moved to Proposal sent (Grnded) or Offer sent (Built To Book) in GHL, counted once per prospect. Proposals often go out by email before the pipeline is updated, so the routine checks Sent mail every run and flags any proposal not yet reflected in GHL or unanswered after two days.
 
 ## Data sources
 
