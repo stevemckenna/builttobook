@@ -80,3 +80,9 @@ The GHL API cannot create or edit pipelines, so Steve edits stages by hand from 
 - **Schedule:** scheduled task "Daily sales brief" (`trig_016z9UNNXrfH3uXD8H839H6p`), weekdays 6:47 am America/Edmonton, fresh session each run. Monday runs include the weekly summary. It was created without connectors; Steve must attach GHL, Gmail, Google Calendar, Notion, Slack and Meta in the claude.ai routines UI or runs cannot reach any data.
 - **Pipeline cleanup:** 65 Grnded Agency opportunities in `1. New Lead Inquiry` created before Aug 2026 moved to `7. Not Interested/Not Yet Ready` (to be renamed Nurture). Six leads from Aug to Oct 2026 left in New.
 - **Google Ads:** running in the Built To Book account since 2026-11-02; no connector yet. Until connected, tag those leads `src-google-ads` in GHL.
+
+## Data rules (corrections from Steve)
+
+- **No-shows:** the Grnded pipeline "No Show" stage holds stale records. Only report a no-show when a GHL calendar appointment from the last 7 days has status `noshow`.
+- **Inbox replies:** before listing a thread as needing a reply, check Sent mail; skip it if Steve already replied after the other person's last message.
+- The routine reads correction notes on the previous Notion brief so fixed errors are not repeated.
