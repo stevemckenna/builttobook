@@ -1,6 +1,6 @@
 # MEMORY.md: Built To Book
 
-Last updated: 2026-11-02
+Last updated: 2026-11-03
 
 > **Auto-update instruction:** At the end of every conversation, update this file automatically with anything new: decisions made, progress, or things learned. No need to ask.
 
@@ -19,6 +19,7 @@ This section is current as of 2026-11-02 and overrides older notes below where t
 - **Google Ads:** account 375-010-8592 (under steve@grndedagency.com), CAD, Mountain time, goal appointment leads. Ads point to the nov-promo landing page, not the Business Profile. First search campaign drafted and paused until conversion tracking on the booking thank-you page is live. Keyword list to finish after Keyword Planner results.
 - **Cold email:** 50 Winnr.app mailboxes warming in Instantly. Going 100% lead magnet based; Steve is building the new lead magnet this week (replaces the free mockup as the cold email magnet). Then landing page, 4-email sequence and leads loaded in Instantly before Nov 15.
 - **Local trade shows:** Millarville Christmas Market (Nov 5 to 8 and 12 to 15). Vendor sheet (303 vendors, 50-vendor priority list) and outreach kit are in the Built To Book Google Drive folder under "Local Trade Shows".
+- **Competitor ad research workflow (2026-11-03, planned, not built):** Gemini and/or Meta Muse find competitors (name, domain, Facebook page URL); Claude pulls real ads via the Meta Ad Library connector (Muse is an AI assistant, not a structured ad source, so ad data comes from the Ad Library); Google ads via Apify later (optional, needs token); results go to Notion per client (Competitors database, Ad Swipe File database, Insights & Concepts page); Claude tags ads and writes creative concepts. Turn into a skill once the process is proven. Ahrefs connector plan does not include Keywords Explorer API data.
 - **Ad creative:** AI-generated images allowed; Steve uses a custom Gemini avatar for truck scene ads. AI imagery stays illustrative, never presented as real client work.
 
 ---
@@ -151,6 +152,7 @@ This section is current as of 2026-11-02 and overrides older notes below where t
 | Michelle Nedelec | Business coach | Started 2026-09-30. Source of the golden interview questions. Private reference only. |
 | Tyler from Compass | Peer / recent call | Mentioned an Atlas tool that is working well for prospecting. Need exact URL and what part of the workflow it improves. |
 | Amtoj Punia | Lead, Punia Custom Homes | Old OMC Panels lead who texted Steve. Added to Built To Book GHL on 2026-10-01 as contact `QmhYvNk7Tl0zbzhYcTF7`; source set to "Old OMC Panels lead, texted Steve." Opportunity `Punia Custom Homes` created in `Built To Book Sales > New lead` with id `DFVedVp2wlEkBtNKwUR3`; proof screenshot saved at `docs/btb-ghl-punia-opportunity-proof.png`. Contact details added to GHL on 2026-10-01: mobile `403-492-9292`, email `amtojpunia@gmail.com`. |
+| Dr. Emil Vargas | Prospect, Athletic & Family Chiropractic (Calgary) | Solo chiropractor, no front desk. Two clinics: Montgomery office (Suite 203, 4712 16th Ave NW) and Panorama Hills home clinic (54 Panatella Cres NW). Site dremilvargas.com. Walk-ins, after-hours and holiday emergency visits, third-party insurance, Activator, custom orthotics. Budget conscious. Recommended Google Search first (one campaign per location plus emergency ad group), about CAD $30/day ad spend ($900/month), year-end benefits push to Dec 20, Meta later with automated follow-up. Steve sending offer 2026-11-03: $600/month ads only, or $1,200/month (Starter) with funnel and CRM automation, both with $900 recommended spend. Flags: Alberta chiro advertising rules on testimonials; keep Applied Kinesiology health claims out of ads. |
 | *(Add contacts here as they come up)* | | |
 
 ---
