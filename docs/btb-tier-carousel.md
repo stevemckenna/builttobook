@@ -14,7 +14,7 @@ Instagram carousel (6 slides) that also runs as a Reel of stills. Shows what eac
 
 ## Open items before posting
 
-0. **The $600 tier goes public.** Until now it was a calls-only downsell. Steve chose to show it here. Still to confirm: the name ("Launch Pad" is a placeholder Claude picked), and that it is billed monthly like the other tiers. Inclusions per Steve: one platform (Meta or Google), ad copy, monthly report, lead forms only (no landing page), CRM extra.
+0. **The $600 tier goes public.** Until now it was a calls-only downsell. Steve chose to show it here. Name "Launch Pad" confirmed by Steve. Still to confirm: billed monthly like the other tiers. Inclusions per Steve: one platform (Meta or Google), ad copy, monthly report, lead forms only (no landing page), CRM extra.
 1. **Icons are new to the brand.** The design system has no icon set (only the logo check) and says to ask before adding one. These 16 icons were drawn for this post in the brand's block style: square stroke, solid fills, no curves except the clock, retarget and headset. Steve approves them, or they get swapped for a set he picks. If approved, add them to the design system as its first icon set.
 2. **November bonus mismatch.**
    - **Homepage:** the bonus comes with Booked Growth and Market Dominator only.
