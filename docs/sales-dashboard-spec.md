@@ -72,3 +72,11 @@ The GHL API cannot create or edit pipelines, so Steve edits stages by hand from 
 2. Leads, meetings and proposals by source.
 3. Activity: outreach, follow-ups, posts published, ad spend and cost per lead.
 4. Pipeline by stage in both accounts and what moved.
+
+## Live setup (2026-11-03)
+
+- **Notion:** page `Sales Dashboard` (https://app.notion.com/p/40d9ebf4f47f810f8479ee5acd3a9fcb) under 1. Projects / 1. Grnded Agency. Database `Daily Briefs`, data source `collection://c4985849-d2f5-4c9f-90f5-e588e07c1c28`, one row per brief. First row: Tue Nov 3.
+- **Delivery:** Slack DM to Steve (user `U091YTV1BA8`) and email to steve@grndedagency.com, same content, linking to the Notion row.
+- **Schedule:** scheduled task "Daily sales brief" (`trig_016z9UNNXrfH3uXD8H839H6p`), weekdays 6:47 am America/Edmonton, fresh session each run. Monday runs include the weekly summary. It was created without connectors; Steve must attach GHL, Gmail, Google Calendar, Notion, Slack and Meta in the claude.ai routines UI or runs cannot reach any data.
+- **Pipeline cleanup:** 65 Grnded Agency opportunities in `1. New Lead Inquiry` created before Aug 2026 moved to `7. Not Interested/Not Yet Ready` (to be renamed Nurture). Six leads from Aug to Oct 2026 left in New.
+- **Google Ads:** running in the Built To Book account since 2026-11-02; no connector yet. Until connected, tag those leads `src-google-ads` in GHL.
