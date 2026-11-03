@@ -1,6 +1,6 @@
 # MEMORY.md: Built To Book
 
-Last updated: 2026-11-02
+Last updated: 2026-11-03
 
 > **Auto-update instruction:** At the end of every conversation, update this file automatically with anything new: decisions made, progress, or things learned. No need to ask.
 
@@ -19,6 +19,7 @@ This section is current as of 2026-11-02 and overrides older notes below where t
 - **Google Ads:** account 375-010-8592 (under steve@grndedagency.com), CAD, Mountain time, goal appointment leads. Ads point to the nov-promo landing page, not the Business Profile. First search campaign drafted and paused until conversion tracking on the booking thank-you page is live. Keyword list to finish after Keyword Planner results.
 - **Cold email:** 50 Winnr.app mailboxes warming in Instantly. Going 100% lead magnet based; Steve is building the new lead magnet this week (replaces the free mockup as the cold email magnet). Then landing page, 4-email sequence and leads loaded in Instantly before Nov 15.
 - **Local trade shows:** Millarville Christmas Market (Nov 5 to 8 and 12 to 15). Vendor sheet (303 vendors, 50-vendor priority list) and outreach kit are in the Built To Book Google Drive folder under "Local Trade Shows".
+- **Tier carousel (2026-11-03):** Drafted `docs/btb-tier-carousel.md`, a 5-slide Instagram carousel that also runs as a Reel, showing Starter, Booked Growth and Market Dominator in one fixed shop-office scene that fills up per level. Uses regular prices from the live site. Open for Steve: confirm who really works on accounts (crew shown 1, 2, 3, with a one-operator fallback), settle the November bonus conflict (homepage says Booked Growth and Market Dominator only; nov-promo page says any package and Starter $1,000 in November), and decide whether to state a launch timeline (none is documented).
 - **Ad creative:** AI-generated images allowed; Steve uses a custom Gemini avatar for truck scene ads. AI imagery stays illustrative, never presented as real client work.
 
 ---
